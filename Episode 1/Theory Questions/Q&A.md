@@ -2,7 +2,7 @@
 
 - What is Emmet ?
 - Difference between libraries and frameworks ?
--
+- What is CDN ? why do we use it ?
 -
 -
 -
@@ -53,3 +53,10 @@ On the other hand, a framework like Next.js provides a more comprehensive set of
 The main difference between a library and a framework in the context of React development is that a library provides specific functionality that can be used in a flexible manner, while a framework provides a more structured and opinionated approach to building applications.
 
 Some other popular React libraries include Redux for managing application state and Axios for making HTTP requests. Some popular React frameworks include Next.js and Gatsby.js for building static and server-rendered React applications.
+
+## What is CDN ? why do we use it ?
+
+CDN stands for Content Delivery Network. It is a network of geographically distributed servers that work together to deliver web content and other internet-based resources to end-users in a faster and more efficient way.
+
+In web development, a CDN is a service that is used to deliver website assets, such as images, stylesheets, and JavaScript files, to end-users in a faster and more efficient way. When a website is hosted on a server, all of its content is served from that server. This can lead to slower loading times and increased latency for users who are located far away from the server.
+By using a CDN, website owners can distribute their content across multiple servers located around the world. When a user requests a page from the website, the CDN will deliver the content from the server that is geographically closest to the user, resulting in faster load times and improved website performance.

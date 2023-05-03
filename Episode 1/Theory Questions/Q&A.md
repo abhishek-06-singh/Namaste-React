@@ -86,3 +86,22 @@ ReactDOM, on the other hand, is a library that provides the glue between React a
 In other words, React is the library that defines the components and the logic for building a user interface, while ReactDOM is the library that takes those components and renders them to the browser's DOM.
 
 To summarize, React is the core library for building UI components, while ReactDOM provides the necessary tools for rendering those components to the DOM.
+
+## What is the Difference between react.development.js and react.production.js files via CDN ?
+
+```javascript
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+```
+
+```javascript
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+```
+
+The two pairs of script tags represent different versions of the React and ReactDOM libraries - development vs production.
+
+The development version of the libraries are intended to be used during the development phase of a project. They are larger in size and include additional debugging information and error messages, which can help you debug issues during development.
+
+The production version of the libraries, on the other hand, are intended for use in production environments. They are smaller in size and optimized for performance, as they don't include the extra debugging information and error messages.
+In general, you should use the development versions of the libraries during development, and switch to the production versions when deploying your application to a production environment to optimize performance.

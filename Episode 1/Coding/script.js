@@ -1,14 +1,15 @@
 /** 
- <div id="parent">
-<div id="child">
+ <div id="root">
+  <div id="parent">
+  <div id="child">
     <h1>HELLO I AM FIRST child</h1>
     <h2>HELLO I AM THE second Child</h2>
-</div>
-<div id="sibling">
+  </div>
+  <div id="sibling">
     <h1>HELLO I AM FIRST child of sib</h1>
     <h2>HELLO I AM THE second  child of sib</h2>
-</div>
-</div>
+  </div>
+ </div>
 </div>
 **/
 

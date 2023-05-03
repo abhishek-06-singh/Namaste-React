@@ -1,4 +1,4 @@
-## Questions
+# Questions
 
 - What is Emmet ?
 - Difference between libraries and frameworks ?
@@ -6,12 +6,6 @@
 - Why is React known as React ?
 - What is cross-origin in script tag ?
 - What is the Difference between React and React dom ?
--
--
--
--
--
--
 
 ## What is Emmet ?
 

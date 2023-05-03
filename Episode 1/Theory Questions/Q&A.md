@@ -5,7 +5,7 @@
 - What is CDN ? why do we use it ?
 - Why is React known as React ?
 - What is cross-origin in script tag ?
--
+- What is the Difference between React and React dom ?
 -
 -
 -
@@ -74,3 +74,15 @@ The "cross-origin" attribute can have two values: "anonymous" or "use-credential
 When the "use-credentials" value is used, the script is loaded with credentials and is allowed to access sensitive data or resources on the page it's loaded on, as long as the server hosting the script allows it. This can be useful for scenarios where the script needs to make authenticated requests to an API or resource that's hosted on a different domain or subdomain.
 
 It's important to note that the use of the "cross-origin" attribute can have security implications, and it should be used with caution.
+
+## What is the Difference between React and React dom ?
+
+React and ReactDOM are both libraries within the React ecosystem, but they serve different purposes.
+
+React is a JavaScript library for building user interfaces. It provides a declarative way to describe how your UI should look and behave, and it manages the state of your application to ensure that your UI stays in sync with your data.
+
+ReactDOM, on the other hand, is a library that provides the glue between React and the DOM (Document Object Model). It provides methods for rendering React components to the DOM, updating the DOM in response to changes in your React components, and handling events that occur within the DOM.
+
+In other words, React is the library that defines the components and the logic for building a user interface, while ReactDOM is the library that takes those components and renders them to the browser's DOM.
+
+To summarize, React is the core library for building UI components, while ReactDOM provides the necessary tools for rendering those components to the DOM.

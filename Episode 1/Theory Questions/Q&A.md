@@ -4,7 +4,7 @@
 - Difference between libraries and frameworks ?
 - What is CDN ? why do we use it ?
 - Why is React known as React ?
--
+- What is cross-origin in script tag ?
 -
 -
 -
@@ -66,3 +66,11 @@ By using a CDN, website owners can distribute their content across multiple serv
 React is known as "React" because of the way it handles changes in a web application's state. In React, the UI is divided into components that can be reused throughout the application. When a component's state changes, React "reacts" to those changes by efficiently updating only the parts of the UI that need to be updated, rather than re-rendering the entire page.
 React was initially developed by Facebook and released in 2013 as an open-source JavaScript library for building user interfaces. The library quickly gained popularity in the web development community for its simplicity, performance, and scalability. Today, React is widely used for building complex and interactive web applications, including some of the most popular websites in the world, such as Facebook, Instagram, and Netflix.
 In summary, React's name reflects its ability to efficiently handle changes in a web application's state and has become one of the most popular web development tools available today due to its simplicity, performance, scalability, and large and active community of developers.
+
+## What is cross-origin in script tag ?
+
+The "cross-origin" attribute can have two values: "anonymous" or "use-credentials". The default value is "anonymous". When the "anonymous" value is used, the script is loaded without any credentials, such as cookies or HTTP authentication information, and is prevented from accessing sensitive data or resources on the page.
+
+When the "use-credentials" value is used, the script is loaded with credentials and is allowed to access sensitive data or resources on the page it's loaded on, as long as the server hosting the script allows it. This can be useful for scenarios where the script needs to make authenticated requests to an API or resource that's hosted on a different domain or subdomain.
+
+It's important to note that the use of the "cross-origin" attribute can have security implications, and it should be used with caution.

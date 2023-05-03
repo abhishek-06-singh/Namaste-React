@@ -3,7 +3,7 @@
 - What is Emmet ?
 - Difference between libraries and frameworks ?
 - What is CDN ? why do we use it ?
--
+- Why is React known as React ?
 -
 -
 -
@@ -60,3 +60,9 @@ CDN stands for Content Delivery Network. It is a network of geographically distr
 
 In web development, a CDN is a service that is used to deliver website assets, such as images, stylesheets, and JavaScript files, to end-users in a faster and more efficient way. When a website is hosted on a server, all of its content is served from that server. This can lead to slower loading times and increased latency for users who are located far away from the server.
 By using a CDN, website owners can distribute their content across multiple servers located around the world. When a user requests a page from the website, the CDN will deliver the content from the server that is geographically closest to the user, resulting in faster load times and improved website performance.
+
+## Why is React known as React ?
+
+React is known as "React" because of the way it handles changes in a web application's state. In React, the UI is divided into components that can be reused throughout the application. When a component's state changes, React "reacts" to those changes by efficiently updating only the parts of the UI that need to be updated, rather than re-rendering the entire page.
+React was initially developed by Facebook and released in 2013 as an open-source JavaScript library for building user interfaces. The library quickly gained popularity in the web development community for its simplicity, performance, and scalability. Today, React is widely used for building complex and interactive web applications, including some of the most popular websites in the world, such as Facebook, Instagram, and Netflix.
+In summary, React's name reflects its ability to efficiently handle changes in a web application's state and has become one of the most popular web development tools available today due to its simplicity, performance, scalability, and large and active community of developers.

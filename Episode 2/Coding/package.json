@@ -1,0 +1,11 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "this is second repo ",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm i script"
+  },
+  "author": "abhishek singh chauhan",
+  "license": "ISC"
+}

@@ -1,11 +1,11 @@
 {
   "name": "coding",
   "version": "1.0.0",
-  "description": "this is second repo ",
+  "description": "this is my npm init ",
   "main": "script.js",
   "scripts": {
-    "test": "npm i script"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "abhishek singh chauhan",
+  "author": "abhishek",
   "license": "ISC"
 }

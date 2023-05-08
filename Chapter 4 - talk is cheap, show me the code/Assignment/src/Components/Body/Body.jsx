@@ -12,5 +12,4 @@ const Body = () => {
     </div>
     )
 }
-console.log(data)
 export default Body

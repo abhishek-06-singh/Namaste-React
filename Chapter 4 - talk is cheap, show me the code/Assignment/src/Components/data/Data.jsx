@@ -1,4 +1,4 @@
-const ResData = [
+const Res = [
     {
         type: "restaurant",
         data: {
@@ -1818,4 +1818,4 @@ const ResData = [
     
     
 ]
-export default ResData;
+export default Res;

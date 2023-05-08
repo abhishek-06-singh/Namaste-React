@@ -1,11 +1,13 @@
-import React from 'react'
 import './body.css'
-
-
-
-function RestaurantCard({
-    cloudinaryImageId, name, cuisines, area, lastMileTravelString, costForTwoString, avgRating,
-}) {
+function RestaurantCard({ cloudinaryImageId,
+    name, 
+    cuisines, 
+    area, 
+    lastMileTravelString, 
+    costForTwoString, 
+    avgRating,}
+   
+) {
     return (
         <div className="card">
             <img

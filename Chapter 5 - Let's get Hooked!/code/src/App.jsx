@@ -1,7 +1,8 @@
 
 
-import Firstfooter from './Components/Footer/Firstfooter';
+
 import Body from './components/Body/Body';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <Body />
-      <Firstfooter />
+      <Footer />
     </>
   )
 }

@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+/* width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* color and rounded corners of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #fff3f3;
+  border-radius: 4px;
+}
+
+/* color and hover style of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffc9c9;
 }

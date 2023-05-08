@@ -1,4 +1,5 @@
 
+import { useState } from "react"
 import "./body.css"
 import Res from "../../assets/data"
 import RestaurantCard from './RestaurantCard'
@@ -9,7 +10,7 @@ const Body = () => {
           <Button />
           <div className="restaurant-list">
          {Res.map((restaurant) => {
-        return  <RestaurantCard key={restaurant.data.id} {...restaurant.data} />;
+           return <RestaurantCard key={restaurant.data.id} {...restaurant.data} />;
       })}
           </div>
         </div>

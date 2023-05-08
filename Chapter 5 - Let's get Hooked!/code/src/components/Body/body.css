@@ -1,3 +1,7 @@
+.body- button{
+    margin-left: 600px;
+}
+
 .restaurant-list{
     display: flex;
     margin: 20px;

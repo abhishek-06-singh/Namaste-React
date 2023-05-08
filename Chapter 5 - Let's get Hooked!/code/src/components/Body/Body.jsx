@@ -9,7 +9,7 @@ const Body = () => {
           <Button />
           <div className="restaurant-list">
          {Res.map((restaurant) => {
-        return <RestaurantCard key={restaurant.data.id} {...restaurant.data} />;
+        return  <RestaurantCard key={restaurant.data.id} {...restaurant.data} />;
       })}
           </div>
         </div>

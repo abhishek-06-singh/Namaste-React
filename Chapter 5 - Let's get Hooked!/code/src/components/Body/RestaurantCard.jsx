@@ -14,8 +14,7 @@ function RestaurantCard({
     return (
         <div className="card">
             <img
-                src={BOX_IMG +
-                    cloudinaryImageId} />
+                src={BOX_IMG + cloudinaryImageId} />
             <h2>{name}</h2>
             <h4>{cuisines.join(", ")}</h4>
             <h4>{area}</h4>

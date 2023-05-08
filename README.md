@@ -1,4 +1,6 @@
 # Namaste React
+![Namaste React](https://user-images.githubusercontent.com/115978151/236782359-f07d936c-86d7-4dc8-ad30-96d64da7cee2.jpg)
+
 Welcome to my repository for Namaste React course notes and questions! In this repository, I am documenting my progress through the course by taking detailed notes and writing down any questions that arise as I learn.
 
 ## About the Course
